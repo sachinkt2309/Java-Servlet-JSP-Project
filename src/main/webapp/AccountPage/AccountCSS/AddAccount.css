@@ -1,0 +1,121 @@
+
+body{
+    background-image: url('backroundimage1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.mainpage{
+    height: 100%;
+    width: 100%;
+    display: block;
+    } 
+#Optionbar{
+     width: 100%;
+     background-color:cadetblue;
+     padding:10px 10px;
+     padding-bottom: 15px;
+     font-size: 20px;
+     overflow: hidden;
+     text-align:right;
+     display: block;
+}
+nav.navbar{
+    position: fixed;  
+    top: 0;
+    width: 100%;
+}
+#Optionbar a{
+    text-decoration: none;
+    color: black;
+    border-style:groove;
+    font-family:Calibri;
+    padding: 12px 32px;
+    border-spacing: 0%;
+    border-color: rgb(126, 188, 204);
+
+}
+div.menu{
+    background-color: cornflowerblue;
+    height: 600px;
+    width: 24%;
+    margin-bottom: 14%;
+    display:inline-block;
+
+}
+div.operation{
+    background-image: url('./userBackgroundImage1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:inline-block;
+    background-color: rgb(228, 68, 167); 
+    height: 600px;
+    width:75%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 14%;    
+}
+/* a.addaccount{
+    display: block;
+    margin-top: 9%;
+    margin-left: 19%;
+    
+    
+}
+a.closeaccount{
+    display: block;
+    margin-top: 16%;
+    margin-left: 15%;
+}
+a.viewaccount{
+    display: block; 
+    margin-top: 20%;
+    margin-left: 9%;
+    margin-bottom:36%;
+} */
+button{
+    background: rgb(6, 88, 37);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+span{
+    display: block;
+    padding: 14px 42px;
+    font-size: 1.25rem;
+    background: rgb(13, 214, 64);
+    color: white;
+    transform: translateY(-6px);
+}
+button:active span{
+    transform: translateY(-2px);
+}
+div.operation form,input{
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#corporateId{
+    margin-left: 44px;
+}
+#accountNumber{
+    margin-left: 9px;
+}
+#accountName{
+    margin-left: 28px;
+}
+#branch{
+    margin-left: 95px;
+}
+#currency{
+    margin-left: 76px;  
+}
+#availableBalance{
+    margin-left: 12px; 
+}
+#UserId{
+    margin-left: 93px;
+}

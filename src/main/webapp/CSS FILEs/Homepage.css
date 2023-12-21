@@ -1,0 +1,90 @@
+body{
+    background-image: url('backroundimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.mainpage{
+    height:100%;
+    width:100%;
+    } 
+#Optionbar{
+    background-color:cadetblue;
+    padding:10px 10px;
+    font-size: 20px;
+    overflow: hidden;
+    text-align:right;
+    display: block;
+    width:100%;
+}
+nav.navbar{
+    position: fixed;  
+    top: 0;
+    width: 100%;
+}
+#Optionbar a{
+    text-decoration: none;
+    color: black;
+    border-style:groove;
+    font-family:Calibri;
+    padding: 12px 32px;
+    border-spacing: 0%;
+    border-color: rgb(126, 188, 204);
+
+}
+
+div #messagebox{   
+    height: 60px;
+    width: 600px;
+    margin-top:6%;
+    margin-left: 26%;
+    text-align:center;
+    background-color: rgb(21, 107, 107);
+    border-radius: 10px;
+    padding-top:5px ;
+
+}
+div #options{
+    margin-top:10%;
+    height:300px;
+    width: 700px;
+    margin-left: 22%;
+}
+
+button{
+    background: rgb(6, 88, 37);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+span{
+    display: block;
+    padding: 14px 42px;
+    font-size: 1.25rem;
+    background: rgb(13, 214, 64);
+    color: white;
+    transform: translateY(-6px);
+}
+button:active span{
+    transform: translateY(-2px);
+}
+a.Accbutton{
+    margin-left:38%;
+    margin-top: 50px;
+    display: block;
+}   
+div a.Copbutton {
+    margin-left:15%;
+}
+div a.Usebutton{
+    margin-left:15%;
+}
+div a.Cplistbutton{
+    margin-left:13%;
+}
+div a.Userlistaccbutton{
+    margin-left:13%;
+}
+
+

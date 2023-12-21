@@ -1,0 +1,95 @@
+body{
+    background-image: url('backroundimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.mainpage{
+    height: 100%;
+    width: 100%;
+    display: block;
+    } 
+#Optionbar{
+     width: 100%;
+     background-color:cadetblue;
+     padding:10px 10px;
+     padding-bottom: 15px;
+     font-size: 20px;
+     overflow: hidden;
+     text-align:right;
+     display: block;
+}
+nav.navbar{
+    position: fixed;  
+    top: 0;
+    width: 100%;
+}
+#Optionbar a{
+    text-decoration: none;
+    color: black;
+    border-style:groove;
+    font-family:Calibri;
+    padding: 12px 32px;
+    border-spacing: 0%;
+    border-color: rgb(126, 188, 204);
+
+}
+div.menu{
+    background-color: cornflowerblue;
+    height: 600px;
+    width: 24%;
+    margin-top: 1px;
+    margin-bottom: 12%;
+    display:inline-block;
+
+}
+div.operation{
+    background-image: url('./backgroundImage2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display:inline-block;
+    background-color: rgb(228, 68, 167); 
+    height: 600px;
+    width:75%;
+    margin-bottom:12%;
+    display: flexbox;
+    
+}
+a.addaccount{
+    display: block;
+    margin-top: 9%;
+    margin-left: 19%;
+    
+    
+}
+a.closeaccount{
+    display: block;
+    margin-top: 16%;
+    margin-left: 15%;
+}
+a.viewaccount{
+    display: block; 
+    margin-top: 20%;
+    margin-left: 9%;
+    margin-bottom:36% ;
+}
+button{
+    background: rgb(6, 88, 37);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+span{
+    display: block;
+    padding: 14px 42px; 
+    font-size: 1.25rem;
+    background: rgb(13, 214, 64);
+    color: white;
+    transform: translateY(-6px);
+}
+button:active span{
+    transform: translateY(-2px);
+}
+

@@ -1,0 +1,118 @@
+body{
+    background-image: url('backroundimage1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.mainpage{
+    height: 100%;
+    width: 100%;
+    display: block;
+    } 
+#Optionbar{
+     width: 100%;
+     background-color:cadetblue;
+     padding:10px 10px;
+     padding-bottom: 15px;
+     font-size: 20px;
+     overflow: hidden;
+     text-align:right;
+     display: block;
+}
+nav.navbar{
+    position: fixed;  
+    top: 0;
+    width: 100%;
+}
+#Optionbar a{
+    text-decoration: none;
+    color: black;
+    border-style:groove;
+    font-family:Calibri;
+    padding: 12px 32px;
+    border-spacing: 0%;
+    border-color: rgb(126, 188, 204);
+
+}
+div.menu{
+    background-color: cornflowerblue;
+    height: 600px;
+    width: 25%;
+    margin-top: 3px;
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 2%;
+
+}
+div.operation{
+    background-image: url('./corporateBackgroundImage1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display:inline-block;
+    background-color: rgb(255, 254, 255); 
+    height:600px;
+    width:74%;
+    margin-bottom:2%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+a.addcorp{
+    display: block;
+    margin-top: 11%;
+    margin-left: 13%;
+    
+}
+a.modifycorp{
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+a.deletecorp{
+    display: block;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+a.viewcorp{
+    display: block; 
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+button{
+    background: rgb(6, 88, 37);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+span{
+    display: block;
+    padding: 14px 42px;
+    font-size: 1.25rem;
+    background: rgb(13, 214, 64);
+    color: white;
+    transform: translateY(-6px);
+}
+button:active span{
+    transform: translateY(-2px);
+}
+
+div.operation form,input{
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#corporateName{
+    margin-left: 11px;
+}
+#address{
+    margin-left: 9%;  
+}
+#phoneNumber{
+    margin-left: 24px; 
+}

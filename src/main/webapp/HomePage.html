@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<%@page import="com.login.verify.LogoutServlet"%>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./CSS FILEs/Homepage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="mainpage">
+        <nav class="navbar">
+    <div id="Optionbar">
+        <a href="HomePage.html">Home</a>
+        <a href="CorporatePage/viewCorporate.jsp">Corporate Setup</a>
+        <a href="UserPage/ViewUser.jsp">User Setup</a>
+        <a href="AccountPage/ViewAccount.jsp">Account Setup</a>
+        <a href="">User Profile</a>
+        <a href="LogoutServlet">Logout</a>
+    </div>
+</nav>
+    <div class="messagebox" id="messagebox">
+        <p style="font-size:30px">
+        Welcome Smartbank Back Office</p>
+    </div>
+    <div id="options">
+        
+        <a class="Accbutton" href="AccountPage/ViewAccount.jsp"><button> <span>Account Setup </span> </button></a><br><br>
+        <a class="Copbutton" href="CorporatePage/viewCorporate.jsp"><button><span>Corporate Setup</span></button></a>
+        <a class="Usebutton" href="UserPage/ViewUser.jsp"><button><span>User Setup</span></button></a><br><br><br>
+        <a class="Cplistbutton" href="CorporatePage/viewCorporate.jsp"><button><span>View Corporate List</span></button></a>
+        <a class="Userlistaccbutton" href="UserPage/ViewUser.jsp"><button><span>View User List</span></button></a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Setup</title>
+    <link rel="stylesheet" href="./CorporateCSS/AddCorporate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="mainpage">
+        <nav class="navbar">
+    <div id="Optionbar">
+        <a href="../HomePage.html">Home</a>
+        <a href="viewCorporate.jsp">Corporate Setup</a>
+        <a href="../UserPage/ViewUser.jsp">User Setup</a>
+        <a href="../AccountPage/ViewAccount.jsp">Account Setup</a>
+        <a href="">User Profile</a>
+        <a href="../LogoutServlet">Logout</a>
+    </div>
+    <div class="menu">
+        <nav>
+            <a class="addcorp" href="AddCorporate.html"><button> <span>Add Corporate </span> </button></a><br><br>
+            <a class="modifycorp" href="Modifyview.jsp"><button> <span>Modify Corporate </span> </button></a><br>
+            <a class="deletecorp" href="deleteview.jsp"><button> <span>Delete Corporate </span> </button></a><br>
+            <a class="viewcorp" href="viewCorporate.jsp"><button> <span>View Corporate List </span> </button></a> 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        </nav>
+    </div>
+   
+    <div class="operation" style="z-index: 1">
+        <form action="../CorporateServlet" method="get">
+            <h3>Enter the following details</h3> 
+            <br>      
+            <tr><td>Corporate Name:</td><td><input type="text" name="CorporateName" id="corporateName" required/></td></tr><br><br>
+            <td>Address: <input type="text"name="Address" id="address" required/></td><br><br>
+            <td>Phone Number: <input type="tel"name="PhoneNumber" maxlength="10" id="phoneNumber" required/></td></tr><br><br>
+            <input style="margin-left: 17%;" type="reset" value="Reset" id="reset">
+            <input style="margin-left: 7%;" type="submit" value="Submit" id="submit">
+            <input type="hidden" name="action" value="add"/>
+            </form>
+    </div>
+</div>
+</nav>
+</body>
+</html>

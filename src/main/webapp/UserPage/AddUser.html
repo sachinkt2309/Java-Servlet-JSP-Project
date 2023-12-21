@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Setup</title>
+    <link rel="stylesheet" href="./UserCSS/AddUser.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="mainpage">
+        <nav class="navbar">
+    <div id="Optionbar">
+        <a href="../HomePage.html">Home</a>
+        <a href="../CorporatePage/viewCorporate.jsp">Corporate Setup</a>
+        <a href="ViewUser.jsp">User Setup</a>
+        <a href="../AccountPage/ViewAccount.jsp">Account Setup</a>
+        <a href="">User Profile</a>
+        <a href="../LogoutServlet">Logout</a>
+    </div>
+    <div class="menu">
+        <nav>
+            <a class="adduser" href="AddUser.html"><button> <span>Add User </span> </button></a><br><br>
+            <a class="modifyuser" href="UserModifyView.jsp"><button> <span>Modify User </span> </button></a><br>
+            <a class="deleteuser" href="DeleteUser.jsp"><button> <span>Delete User </span> </button></a><br>
+            <a class="viewuser" href="ViewUser.jsp"><button> <span>View User List </span> </button></a> 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        </nav>
+    </div>
+   
+    <div class="operation">
+        <form action="../UserSetupServlet">
+            <h3>Enter the following details</h3>    
+            <tr><td>Corporate Id:</td><td><input type="text" name="corporateId" id="corporateId" required/></td></tr><br><br> 
+            <tr><td>Login ID:</td><td><input type="text" name="loginId" id="loginId" required/></td></tr><br><br>  
+            <tr><td>Password:</td><td><input type="password" name="password" id="password" required/></td></tr><br><br> 
+            <tr><td>Department:</td><td><input type="text" name="DepartmentName" id="departmentName" required/></td></tr><br><br>
+            <tr><td>Address: <input type="text"name="Address" id="address"/></td></tr><br><br>
+            <tr><td>Phone Number: <input type="tel"name="phoneNumber" maxlength="10" id="phoneNumber"/></td></tr><br><br>
+            <input style="margin-left: 18%;" type="reset" value="Reset" id="reset">
+            <input style="margin-left: 7%;" type="submit" value="Submit" id="submit">
+            <input type="hidden" name="action" value="add">
+            </form>
+    </div>
+</div>
+</nav>
+</body>
+</html>
